@@ -1,0 +1,134 @@
+h1{
+	text-align:center;
+}
+
+body{
+	margin: 0;
+	margin: 10px;
+}
+
+.turk{
+	width: 30%;
+	display: inline-block;
+	padding: 10px;
+	border:	2px solid black;
+	margin: 15px;
+	box-sizing: border-box;
+	background-color: lightgreen;
+}
+
+.chick{
+	width: 30%;
+	display: inline-block;
+	padding: 10px;
+	border:2px solid black;
+	margin: 15px;
+	box-sizing: border-box;
+	background-color: lightgreen;
+}
+.mea{
+	width: 30%;
+	display: inline-block;
+	padding: 10px;
+	border:2px solid black;
+	margin: 15px;
+	box-sizing: border-box;
+	background-color: lightgreen;
+}
+
+#x{
+	display: inline;
+	border: 1px solid black;
+	position: relative;
+	left: 305px;
+	bottom: 10px;
+	background-color: yellow;
+}
+
+#y{
+	display: inline;
+	border: 1px solid black;
+	position: relative;
+	left: 295px;  
+	bottom: 10px;
+	background-color: yellow;
+}
+
+#z{
+	display: inline;
+	border: 1px solid black;
+	position: relative;
+	left: 320px;
+	bottom: 10px;
+	background-color: yellow;
+}
+
+
+@media (min-width: 992px) {
+	body{
+		background-color: skyblue;
+	}
+	.turk{
+		width: 30%;
+		margin: 10px;
+	}
+	.chick{
+		width: 30%;
+		margin: 10px;
+	}
+	.mea{
+		width: 30%;
+		margin: 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body{
+	background-color: blue;
+	}
+	.turk{
+		width: 45%;
+	}
+	.chick{
+		width: 45%;
+	}
+	.mea{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+
+
+@media (max-width: 767px){
+	body{
+		background-color: purple;
+	}
+		.turk{
+		width: 100%;
+		margin: 0;
+	}
+	.chick{
+		width: 100%;
+		margin: 0;
+	}
+	.mea{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
